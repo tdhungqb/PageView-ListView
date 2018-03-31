@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id="@+id/imageThoiTiet"
+        android:layout_width="60dp"
+        android:layout_height="60dp" />
+    <TextView
+        android:id="@+id/tvDiaPhuong"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/imageThoiTiet"
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+    <TextView
+        android:id="@+id/tvThoiTiet"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/tvDiaPhuong"
+        android:layout_toRightOf="@id/imageThoiTiet"
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+
+</RelativeLayout>
